@@ -7,6 +7,18 @@ const port=8000;
 const db = require('./config/mongoose')
 
 
+//Used for Session Cookie
+const passport = require('passport');
+const passportJWT = require('./config/passport-jwt-strategy')
+
+
+app.use(express.urlencoded({ extended: true }))
+
+app.use(passport.initialize());
+
+// Use express router
+app.use('/', require('./routes/index'))
+
 
 
     app.listen(port, function (error) {

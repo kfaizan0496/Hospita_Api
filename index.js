@@ -3,7 +3,8 @@ const app=express();
 
 
 const port=8000;
-
+// used database
+const db = require('./config/mongoose')
 
 
 

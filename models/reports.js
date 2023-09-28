@@ -4,10 +4,12 @@ const mongoose = require('mongoose');
 
 const reportSchema = new mongoose.Schema({
   createdByDoctor: {
+    // reference of the doctors who created reports
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
   },
   patient: {
+    //  refernce id of the patients
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
   },

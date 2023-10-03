@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const passport = require('passport');
 
-const status= require('../controllers/status')
+const status= require('../controllers/reportStatus')
 
 router.use('/doctors', require('./doctors'))
 router.use('/patients', require('./patients'))

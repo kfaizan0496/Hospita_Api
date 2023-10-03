@@ -1,5 +1,5 @@
 
-const Report = require('../models/reports')
+const Report = require('../models/patientReports')
 
 module.exports.filteredReports = async function(req,res)
 {

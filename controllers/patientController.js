@@ -1,8 +1,8 @@
 
-const Report = require('../models/reports');
-const User = require('../models/user')
+const Report = require('../models/patientReports');
+const User = require('../models/user');
 
-
+//   register patient bye the doctors....
 module.exports.register = async function(req,res)
 {
     try {
@@ -13,7 +13,7 @@ module.exports.register = async function(req,res)
         {
             return res.status(200).json(
                 {
-                    message: 'User Already Registered',
+                    message: ' This User Already Registered',
                     data:{
                         user:user
                     }
@@ -24,7 +24,7 @@ module.exports.register = async function(req,res)
         user = await User.create({
             username:req.body.number,
             name:req.body.name,
-            password:'12345',
+            password:'033544',
             type:'Patient'
         });
 
@@ -45,6 +45,8 @@ module.exports.register = async function(req,res)
     
 
 }
+
+// createReport is a function to create reports of the patients by the doctors
 
 module.exports.createReport = async function(req,res)
 {
@@ -90,6 +92,7 @@ module.exports.createReport = async function(req,res)
 
 }
 
+// patientReports is a function to fetch details of the report of the Patients
 module.exports.patientReports = async function(req,res)
 {
     try {

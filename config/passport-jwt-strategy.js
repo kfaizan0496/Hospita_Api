@@ -4,9 +4,10 @@ const ExtractJWT = require('passport-jwt').ExtractJwt;
 
 const User = require('../models/user');
 
+// for Bearer Token
 let opts = {
     jwtFromRequest: ExtractJWT.fromAuthHeaderAsBearerToken(),
-    secretOrKey: 'Alert1234'
+    secretOrKey: 'kf033544'
 }
 
 passport.use(new JWTStrategy(opts, function (jwtPayload, done) {

@@ -2,7 +2,7 @@
 const Report = require('../models/patientReports');
 const User = require('../models/user');
 
-//   register patient bye the doctors....
+//   register patients by the doctors....
 module.exports.register = async function(req,res)
 {
     try {

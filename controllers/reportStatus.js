@@ -1,6 +1,8 @@
 
 const Report = require('../models/patientReports')
 
+
+//  this function is used to fetch the reports by status
 module.exports.filteredReports = async function(req,res)
 {
     try {

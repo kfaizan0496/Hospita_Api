@@ -42,5 +42,32 @@ of a Hospital which has been allocated by the government for testing and quarant
    </ol> 
 
 
+   <h2> Doctors Signup :</h2> <br>
+
+![Screenshot (47)](https://github.com/kfaizan0496/Hospital_Api/assets/113850768/8ce8b7fc-21ea-470b-a688-1535430751da)
+
+![Screenshot (46)](https://github.com/kfaizan0496/Hospital_Api/assets/113850768/1546d732-b663-4e28-a101-7ebdf4ae7759)
+
+   <h2> Doctors Login :</h2> <br>
+   
+![Screenshot (52)](https://github.com/kfaizan0496/Hospital_Api/assets/113850768/980a0b23-4104-4d08-a8b8-368369497a10)
+
+
+   <h2> Patients Register :</h2> <br>
+   
+![Screenshot (48)](https://github.com/kfaizan0496/Hospital_Api/assets/113850768/706e3c90-dc91-41b6-8470-40beb16f451a)
+
+
+   <h2> Create Reports :</h2> <br>
+
+![Screenshot (49)](https://github.com/kfaizan0496/Hospital_Api/assets/113850768/d7ce17bc-f20a-47d4-98b1-a6c85db33b37)
+
+<h2> List of all reports according to status :</h2> <br>
+
+![Screenshot (50)](https://github.com/kfaizan0496/Hospital_Api/assets/113850768/ae7f3e2a-7588-418a-ba88-614fe24ccd32)
+
+<h2> List of all Patients Reports according to Symptoms :</h2> <br>
+
+![Screenshot (51)](https://github.com/kfaizan0496/Hospital_Api/assets/113850768/95fe367c-65c4-4ed6-bcd8-f669dbfbb255)
 
 

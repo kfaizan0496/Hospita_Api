@@ -2,7 +2,7 @@
 
 
 
-<h1>Hosting Link ::<b>https://hospital-api-zjle.onrender.com</b></h1>
+
 
 <h1>Hospital_Api:</h1>  A nodejs + ejs web application   is a Hospital API for the doctors 
 of a Hospital which has been allocated by the government for testing and quarantine + well being of COVID-19 patients <br><br>

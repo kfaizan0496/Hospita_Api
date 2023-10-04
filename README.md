@@ -7,6 +7,16 @@
 <h1>Hospital_Api:</h1>  A nodejs + ejs web application   is a Hospital API for the doctors 
 of a Hospital which has been allocated by the government for testing and quarantine + well being of COVID-19 patients <br><br>
 
+  <h3> Installation:</h3> <br>
+       <ol>
+            <h5>To run this application on your local machine, please follow these steps:</h5>
+               <li>Install the required dependencies using the following command:  npm install</li>
+               <li>Start the application using the following command:  npm start(This Command only Working When use nodemon)</li>
+               <li>Open the application in your postman app by visiting the following URL: http://localhost:8000</li>
+               <li>Check All the Routes </li>
+       </ol>
+
+  
 <h3> Technology Used :</h3> <br>
 <ul>
      <li>Nodejs</li>

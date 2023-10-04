@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // connect to   Database....
 // mongoose.connect(`mongodb://127.0.0.1:27017/Hospital_Database`);
-// const url='mongodb+srv://kfaizan472:049632@cluster0.ofndbte.mongodb.net/?retryWrites=true&w=majority';
+
 console.log(process.env.MONGO_URL);
 const url=process.env.MONGO_URL
 mongoose.connect(url,{
